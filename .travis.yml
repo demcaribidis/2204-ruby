@@ -1,0 +1,12 @@
+dist: jammy
+group: dev
+language: ruby
+arch:
+  - amd64
+  - arm64
+ruby:
+  - 3.0.4
+  - 3.1.2
+script:
+  - ruby --version
+  - ruby ./hello.rb
