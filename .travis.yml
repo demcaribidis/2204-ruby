@@ -1,6 +1,6 @@
 dist: xenial
 group: edge
-language: ruby
+language: opal
 script:
   - ruby --version
   - ruby ./hello.rb
