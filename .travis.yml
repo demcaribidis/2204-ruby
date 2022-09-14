@@ -1,9 +1,8 @@
 os: linux
 dist: xenial
-group: dev
+group: edge
 language: ruby
 before_script:
-  - go version
   - ruby --version
 ruby:
  - 2.7.6
