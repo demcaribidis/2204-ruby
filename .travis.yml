@@ -8,6 +8,4 @@ ruby:
  - 2.7.6
  - 3.0.4
  - 3.1.2
-script:
-- ruby --version
-- ruby ./hello.rb
+
