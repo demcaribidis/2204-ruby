@@ -2,7 +2,7 @@ os: linux
 dist: xenial
 group: edge
 language: ruby
-before_script:
+rvm list
   - ruby --version
 ruby:
  - 2.7.6
