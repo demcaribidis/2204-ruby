@@ -1,13 +1,6 @@
-os: linux
 dist: xenial
 group: edge
-language: ruby
-rvm list:
-  - ruby --version
-ruby:
- - 2.7.6
- - 3.0.4
- - 3.1.2
+language: opal
 script:
 - ruby --version
 - ruby ./hello.rb
